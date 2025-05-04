@@ -1,0 +1,329 @@
+{
+  "puzzles": [
+    {
+      "order": 1,
+      "id": "01qym",
+      "title": "Smrt u jezera",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "9:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 2,
+      "id": "02ang",
+      "title": "Vyznavači ohně",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "9:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 3,
+      "id": "03uuf",
+      "title": "Loupež sladkého „i\"",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "9:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 4,
+      "id": "04ism",
+      "title": "Rubínové kříže",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "9:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 5,
+      "id": "05ekl",
+      "title": "Hon na lišku",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "9:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 1",
+      "bonus-deadline": "10:00",
+      "bonus-place": "místo 1"
+    },
+    {
+      "order": 6,
+      "id": "06tto",
+      "title": "Bestie",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "12:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 7,
+      "id": "07jjq",
+      "title": "Mědirytina",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "12:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 8,
+      "id": "08rjk",
+      "title": "Strach",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "12:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 9,
+      "id": "09eqe",
+      "title": "Loď do Hamburku",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "12:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 10,
+      "id": "10mrn",
+      "title": "Vrah se skrývá v poli",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "12:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 2",
+      "bonus-deadline": "13:00",
+      "bonus-place": "místo 2"
+    },
+    {
+      "order": 11,
+      "id": "11osh",
+      "title": "Křížová cesta",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "14:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 12,
+      "id": "12pra",
+      "title": "Kleště",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "14:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 13,
+      "id": "13wda",
+      "title": "Romance o nenápadné paní",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "14:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 14,
+      "id": "14kww",
+      "title": "Konec velké šance",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "14:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 15,
+      "id": "15sdh",
+      "title": "Kvadratura ženy",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "14:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 3",
+      "bonus-deadline": "15:00",
+      "bonus-place": "místo 3"
+    },
+    {
+      "order": 16,
+      "id": "16kfe",
+      "title": "Dáma s erbem",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "16:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 17,
+      "id": "17lin",
+      "title": "Prokleté dědictví",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "16:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 18,
+      "id": "18mly",
+      "title": "Bílé linky",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "16:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 19,
+      "id": "19ijq",
+      "title": "Třetí housle",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "16:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 20,
+      "id": "20duu",
+      "title": "Modrá světla",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "16:30",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 4",
+      "bonus-deadline": "17:00",
+      "bonus-place": "místo 4"
+    },
+    {
+      "order": 21,
+      "id": "21fqn",
+      "title": "Pán ze Salcburku",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "19:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 22,
+      "id": "22rfr",
+      "title": "Tatranské pastorále",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "19:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 23,
+      "id": "23rtc",
+      "title": "Šťastný a veselý",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "19:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 24,
+      "id": "24zph",
+      "title": "Klauni",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "19:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 25,
+      "id": "25kqw",
+      "title": "Štvanice",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "19:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 5",
+      "bonus-deadline": "20:30",
+      "bonus-place": "místo 5"
+    },
+    {
+      "order": 26,
+      "id": "26iat",
+      "title": "Studna",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "22:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 27,
+      "id": "27asn",
+      "title": "Rukojmí v Bella Vista",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "22:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 28,
+      "id": "28jqf",
+      "title": "Poselství z neznámé země",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "22:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 29,
+      "id": "29ayd",
+      "title": "Mimikry",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "22:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"]
+    },
+    {
+      "order": 30,
+      "id": "30xvd",
+      "title": "Růže pro Zemana",
+      "description": "<i>Co je to?</i><br><br>🧩",
+      "image": "/img/puzzle.png",
+      "deadline": "22:00",
+      "answer": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "hints": ["Jak co to vypadá?", "Podle mě je to puzzle!"],
+      "bonus": true,
+      "bonus-text": "bonus 6",
+      "bonus-deadline": "teď",
+      "bonus-place": "místo 6",
+      "final": true
+    }
+  ]
+}

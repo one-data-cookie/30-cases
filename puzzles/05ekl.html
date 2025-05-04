@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title"></title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="typewriter-overlay"></div>
+  <div class="container puzzle-container">
+    <header>
+      <h1 id="puzzle-title"></h1>
+      <p class="classified" id="puzzle-case"></p>
+    </header>
+
+    <main>
+      <div class="case-content">
+        <div class="puzzle-description">
+          <p id="puzzle-description"></p>
+          <div class="puzzle-image" id="puzzle-image" style="display:none"></div>
+        </div>
+
+        <div class="puzzle-form">
+          <div class="deadline-box">
+            <span class="deadline-label">Misi vyřešit do:</span>
+            <span class="deadline-value" id="puzzle-deadline"></span>
+          </div>
+          <div class="input-group">
+            <label for="answer" id="answer-label"></label>
+            <input type="text" id="answer" name="answer" aria-describedby="answer-hint">
+          </div>
+          <button type="submit" id="submit-answer"></button>
+          <div id="message" class="message" role="alert"></div>
+        </div>
+
+        <div class="hints">
+          <button id="show-hint" class="hint-button"></button>
+          <div id="hints-list" class="hint-content"></div>
+        </div>
+      </div>
+      <div class="return-home">
+        <button onclick="window.location.href='../index.html'">Zpět na hlavní stránku</button>
+      </div>
+      <footer>
+        <hr>
+        <p class="footer-text">With ❤️</p>
+      </footer>
+    </main>
+  </div>
+  <!-- Inline script to load JSON data dynamically from puzzles.json -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const jsonPath = '/puzzles.json';
+      fetch(jsonPath)
+        .then(response => response.json())
+        .then(data => {
+          // Extract data for the current puzzle based on the filename
+          const filename = window.location.pathname.split('/').pop().replace('.html', '');
+          const puzzleData = data.puzzles.find(p => p.id === filename);
+
+          if (!puzzleData) {
+            console.error('Puzzle not found:', filename);
+            return;
+          }
+
+          document.getElementById("page-title").innerHTML = `${puzzleData.title} - Případ #${puzzleData.order}`;
+          document.getElementById("puzzle-title").innerHTML = puzzleData.title;
+          document.getElementById("puzzle-case").innerHTML = `PŘÍPAD #${puzzleData.order}`;
+          document.getElementById("puzzle-description").innerHTML = puzzleData.description;
+
+          // Handle optional puzzle image
+          const puzzleImage = document.getElementById("puzzle-image");
+          puzzleImage.innerHTML = ""; // Clear existing content
+          if (puzzleData.image) {
+            const img = document.createElement('img');
+            img.src = puzzleData.image;
+            img.alt = `Obrázek k případu #${puzzleData.order}`;
+            puzzleImage.appendChild(img);
+            puzzleImage.style.display = "block"; // Show if image exists
+          } else {
+            puzzleImage.style.display = "none"; // Hide if no image
+          }
+
+          document.getElementById("answer-label").innerHTML = "Odpověď:";
+          document.getElementById("answer").setAttribute("placeholder", "Zadejte odpověď...");
+          document.getElementById("submit-answer").innerHTML = "Ověřit";
+          document.getElementById("show-hint").innerHTML = "Zobrazit další nápovědu";
+        })
+        .catch(err => console.error("Failed to load puzzles.json", err));
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script type="module" src="../src/puzzle.js"></script>
+</body>
+
+</html>
