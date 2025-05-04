@@ -22,17 +22,10 @@ A small treasure hunt website with 30 puzzles. It was made for my wife's
 
 ## Deployment
 
-- Build:  
-  ```
-  npm install
-  npm run build
-  ```
-- Deploy the `dist/` folder to Netlify or any static host
-
-## Notes
-
+- Have puzzles in `puzzles/`, logic in `src/`, data in `public/`
+- Build using `npm run build`
+- Deploy `dist/` folder to Netlify or any static host
 - Uses Vite, `js-sha256`, and `canvas-confetti`
-- Has puzzles in `puzzles/`, logic in `src/`, data in `public/`
 
 ## Puzzle Ideas
 
