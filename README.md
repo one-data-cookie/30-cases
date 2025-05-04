@@ -9,7 +9,7 @@ A small treasure hunt website with 30 puzzles. It was made for my wife's
 - 30 puzzles, each with a lock and a random filename (to avoid skipping ahead)
 - Answers are checked via SHA-256 hashes (not stored in plain text)
 - Bonus rounds every 5th puzzle (to give out presents/prizes)
-- Hints system, images, responsive design, ...
+- Hints system, time limits, images, responsive design, ...
 - Texts in Czech but can be easily switched to English
 
 ## Customisation
@@ -28,6 +28,14 @@ A small treasure hunt website with 30 puzzles. It was made for my wife's
 - Uses Vite, `js-sha256`, and `canvas-confetti`
 
 ## Puzzle Ideas
+
+Personally, I went for a diverse range of puzzle types, keeping most of them relatively easy.
+The goal was to prioritise the overall experience and the bonuses rather than making it
+too time-consuming.
+
+For the answers, I used lowercase letters without diacritics or numbers, typically a single word.
+I chose answers that held personal significance to my wife, adding a unique touch.
+For the number-based puzzles though, I simply opted for the solution digits directly.
 
 ### Classics
 - Caesar cipher
